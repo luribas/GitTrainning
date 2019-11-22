@@ -33,27 +33,30 @@ public class GitTrainning {
             switch (opMenu){
                 case 1:
                     System.out.println("\nVenk te dou abracin <3");
-                    System.out.println("Continuar? (1- Sim | 0 - Nao)");
+                    System.out.println("\nContinuar? (1- Sim | 0 - Nao)");
                     opMenu = scn.nextInt();
                     break;
                 case 2:
                     System.out.println("\nFoge sim, e me leva junto");
-                    System.out.println("Continuar? (1- Sim | 0 - Nao)");
+                    System.out.println("\nContinuar? (1- Sim | 0 - Nao)");
                     opMenu = scn.nextInt();
                     break;
                 case 3:
                     System.out.println("\nFaz naninha então, eu deixo");
-                    System.out.println("Continuar? (1- Sim | 0 - Nao)");
+                    System.out.println("\nContinuar? (1- Sim | 0 - Nao)");
                     opMenu = scn.nextInt();
                     break;
+                case 4:
+                    
                 default:
                     System.out.println("Tudo bem, eu não quero nada da vida tbm");
-                    System.out.println("Continuar? (1- Sim | 0 - Nao): ");
+                    System.out.println("\nContinuar? (1- Sim | 0 - Nao): ");
                     opMenu = scn.nextInt();
                     break;
             }
        }
-        
+           
+    }
         
         
     }
